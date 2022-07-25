@@ -15,13 +15,12 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 100,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Backgrounds" },
+      { name: "Base" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Hats" },
+      { name: "Clothes" },
     ],
   },
 ];
@@ -72,7 +71,7 @@ const PRESALE_WHITELISTED_ADDRESSES = [0xaA7018104bbD6C4C4f74A3ba401779F7D7C9e0d
 let CONTRACT_ADDRESS = "0x943F381B0DFA7a0Bf37e526F2e64924608fdF81B"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = null; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = "YoungBulls"; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Which bulls will you get?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeigcjr3cf76yp7dtzevc635dkuiqsvrsjzdhwox5qrhjqdlbhxpuj4"; // Replace with your generic image that will display for all NFTs pre-reveal.
