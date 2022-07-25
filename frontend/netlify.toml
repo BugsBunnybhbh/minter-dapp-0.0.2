@@ -1,2 +1,4 @@
 [build]
+  command = "yarn build && mkdir build && cp index.html build && cp -r dist build/dist"
+  publish = "build"
   functions = "functions"
